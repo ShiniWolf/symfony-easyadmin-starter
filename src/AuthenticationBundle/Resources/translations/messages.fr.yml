@@ -1,0 +1,38 @@
+button:
+    login: 'Se connecter'
+    register: 'S''inscrire'
+    request_password: 'Recevoir mon nouveau mot de passe'
+
+label:
+    account_activated: 'Compte activé'
+    account_deactivated: 'Compte désactivé'
+    confirm_password: 'Confirmer le mot de passe'
+    created_at: 'Créé le'
+    email: 'Adresse mail'
+    last_login_at: 'Dernière connexion le'
+    password: 'Mot de passe'
+    roles: 'Rôles'
+    role_admin: 'Administrateur'
+    role_user: 'Utilisateur'
+    status: 'Etat'
+    updated_at: 'Modifié le'
+    username: 'Nom d''utilisateur'
+
+link:
+    create_account: 'Créer un compte'
+    login: 'Se connecter'
+    password_recovery: 'Mot de passe oublié ?'
+
+menu:
+    admin:
+        users: 'Utilisateurs'
+
+title:
+    admin:
+        show: '%entity_label% (#%entity_id%)'
+        user_list: 'Liste des utilisateurs'
+    login: 'Connexion'
+    password_recovery: 'Mot de passe oublié ?'
+    register: 'Inscription'
+
+User: 'Utilisateur'

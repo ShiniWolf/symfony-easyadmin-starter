@@ -1,0 +1,38 @@
+button:
+    login: 'Login'
+    register: 'Register'
+    request_password: 'Request new password'
+
+label:
+    account_activated: 'Account activated'
+    account_deactivated: 'Account deactivated'
+    confirm_password: 'Confirm password'
+    created_at: 'Created at'
+    email: 'Email'
+    last_login_at: 'Last login at'
+    password: 'Password'
+    roles: 'Roles'
+    role_admin: 'Administrator'
+    role_user: 'User'
+    status: 'Status'
+    updated_at: 'Updated at'
+    username: 'Username'
+
+link:
+    create_account: 'Create an account'
+    login: 'Login'
+    password_recovery: 'Password miss ?'
+
+menu:
+    admin:
+        users: 'Users'
+
+title:
+    admin:
+        show: '%entity_label% (#%entity_id%)'
+        user_list: 'User list'
+    login: 'Connexion'
+    password_recovery: 'Password miss ?'
+    register: 'Registration'
+
+User: 'User'

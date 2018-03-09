@@ -1,0 +1,25 @@
+{% extends '@Authentication/security/layout.html.twig' %}
+
+{% block page_title 'title.login'|trans %}
+
+{% block page_content %}
+
+    {% if loginError %}
+        <div class="alert alert-danger">{{ loginError.messageKey|trans(loginError.messageData, 'security') }}</div>
+    {% endif %}
+
+    {{ form_start(loginForm) }}
+
+    {{ form_rest(loginForm) }}
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block">{{ 'button.login'|trans }}</button>
+    </div>
+
+    <div class="form-group text-center">
+        <a href="{{ path('register') }}">{{ 'link.create_account'|trans }}</a>{# -
+        <a href="{{ path('password_recovery') }}">{{ 'link.password_recovery'|trans }}</a>#}
+    </div>
+
+    {{ form_end(loginForm) }}
+{% endblock %}

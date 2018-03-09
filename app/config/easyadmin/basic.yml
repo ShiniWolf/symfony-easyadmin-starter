@@ -1,0 +1,13 @@
+easy_admin:
+    site_name: '%website_name%'
+    design:
+#        brand_color: '#3f673b'
+        menu:
+            - { entity: 'User', icon: 'users', params: { sortField: 'createdAt', sortDirection: 'DESC' } }
+    formats:
+        date:     'd/m/Y'
+        time:     'H:i'
+        datetime: 'd/m/Y H:i:s'
+    list:
+        actions: ['show']
+        max_results: 20

@@ -1,0 +1,4 @@
+username_exists: 'Ce nom d''utilisateur est déjà utilisé'
+email_exists: 'Cette adresse mail est déjà utilisée'
+
+confirm_password_different: 'Le mot de passe et la confirmation du mot de passe doivent être identiques'

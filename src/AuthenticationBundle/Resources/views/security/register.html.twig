@@ -1,0 +1,20 @@
+{% extends '@Authentication/security/layout.html.twig' %}
+
+{% block page_title 'title.register'|trans %}
+
+{% block page_content %}
+
+    {{ form_start(registerForm) }}
+
+    {{ form_rest(registerForm) }}
+
+    <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary">{{ 'button.register'|trans }}</button>
+    </div>
+
+    <div class="form-group text-center">
+        <a href="{{ path('login') }}">{{ 'link.login'|trans }}</a>
+    </div>
+
+    {{ form_end(registerForm) }}
+{% endblock %}

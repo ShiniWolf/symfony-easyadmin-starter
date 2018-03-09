@@ -1,0 +1,31 @@
+easy_admin:
+    entities:
+        User:
+            class: 'AuthenticationBundle\Entity\User'
+            label: 'menu.admin.users'
+            disabled_actions: ['delete']
+            list:
+                title: 'title.admin.user_list'
+                fields:
+                    - { property: 'username', label: 'label.username' }
+                    - { property: 'email', label: 'label.email' }
+                    - { property: 'roles', label: 'label.roles' }
+                    - { property: 'status', label: 'label.status' }
+                    - { property: 'lastLoginAt', label: 'label.last_login_at' }
+                    - { property: 'createdAt', label: 'label.created_at' }
+            show:
+                title: 'title.admin.show'
+                fields:
+                    - { property: 'username', label: 'label.username' }
+                    - { property: 'email', label: 'label.email' }
+                    - { property: 'roles', label: 'label.roles' }
+                    - { property: 'status', label: 'label.status' }
+                    - { property: 'lastLoginAt', label: 'label.last_login_at' }
+                    - { property: 'createdAt', label: 'label.created_at' }
+                    - { property: 'updatedAt', label: 'label.updated_at' }
+            form:
+                fields:
+                    - { property: 'username', label: 'label.username' }
+                    - { property: 'email', label: 'label.email' }
+                    - { property: 'roles', label: 'label.roles', type: 'choice', type_options: { multiple: true, expanded: true, choices: { label.role_admin: ROLE_ADMIN, label.role_user: ROLE_USER } } }
+                    - { property: 'status', label: 'label.status', type: 'choice', type_options: { choices: { label.account_deactivated: 0, label.account_activated: 1 } } }

@@ -1,0 +1,4 @@
+username_exists: 'This username already exists'
+email_exists: 'This email already exists'
+
+confirm_password_different: 'Password and confirmation must be identical'
