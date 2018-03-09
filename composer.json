@@ -1,8 +1,8 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "shiniwolf/symfony-easyadmin-starter",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "The \"Symfony Standard Edition\" with Easyadmin bundle",
     "autoload": {
         "psr-4": {
             "AuthenticationBundle\\": "src/AuthenticationBundle",
