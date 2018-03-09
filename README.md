@@ -5,7 +5,7 @@ Symfony EasyAdmin Starter
 Installation
 --------------
 
-  * `composer require shiniwolf/symfony-easyadmin-starter`
+  * `composer create-project shiniwolf/symfony-easyadmin-starter project_name`
 
   * `php bin/console assets:install`
 
